@@ -3,7 +3,7 @@
 
 <h1 align="center">SENECA WINTER TERM 2021 - WORKSHOPS</h1>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/1st-term)
+![VS Badge](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)   ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)   ![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/1st-term)
 
 <p>Codes of my workshops and the final project.</p>
 
@@ -30,8 +30,10 @@
 This repository is divided into branches, each branch has one workshop/project and a pdf with its specifications. You can access the branch by clicking at the title:
 
 ### [Workshop #2](https://github.com/DeBaFig/1st-term/tree/DeBaFig-Workshop2)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46844031/163504366-e9dd85ad-9961-469e-8ba5-e3b6f74adc13.gif" width="600"/>
+</p>
 
-![w2](https://user-images.githubusercontent.com/46844031/163504366-e9dd85ad-9961-469e-8ba5-e3b6f74adc13.gif)
 
 This program calculates the number of toonies, loonies, quarters, dimes, nickels, and pennies required to dispense the amount due and displays the remaining owed with each coin denomination.
 
@@ -56,7 +58,9 @@ $1.00 Loonies  X 1 (remaining: $0.00)
 
 ### [Workshop #3](https://github.com/DeBaFig/1st-term/tree/DeBaFig-workshop3)
 
-![w3](https://user-images.githubusercontent.com/46844031/163491541-3ced595a-db79-4fc8-a08b-9c49e4269925.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46844031/163491541-3ced595a-db79-4fc8-a08b-9c49e4269925.gif" width="600"/>
+</p>
 
 This program gets the input for a specified number (CONST) of days that records the user’s self-diagnosed “wellness” rating for the morning and evening periods of each day. The application will end with a summary of statistics about the data entered.
 How to use:
@@ -103,7 +107,9 @@ Average overall rating:  2.8
 
 ### [Workshop #4](https://github.com/DeBaFig/1st-term/tree/DeBaFig-workshop4)
 
-![w4](https://user-images.githubusercontent.com/46844031/163493459-f35ea07a-0f5e-48ec-9168-98e69e699d02.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46844031/163493459-f35ea07a-0f5e-48ec-9168-98e69e699d02.gif" width="600"/>
+</p>
 
 The program will ask for the user’s monthly income and then ask for the price and priority of a series of items the user would like to purchase in the future. It will store this information and allow the user to view predictions on how long it will take to save enough money to purchase their wish list items.
 How to use:
@@ -159,13 +165,157 @@ NOTE: Financing options are available on some items.
  
 ### [Workshop #5](https://github.com/DeBaFig/1st-term/tree/DeBaFig-Workshop5)
 
-![w5](https://user-images.githubusercontent.com/46844031/163506188-57baccc2-6610-4f39-8429-5ddeb1d8c2f2.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46844031/163506188-57baccc2-6610-4f39-8429-5ddeb1d8c2f2.gif" width="600"/>
+</p>
+
+The game requires the player to enter move location commands to reveal what is hidden at a given position along the path. The object of the game is for the player to find as many treasures as possible before running out of moves or lives. Discovering a bomb will reduce the player’s life count. Discovering a treasure will earn the player treasure points. Discovering both, a treasure with a bomb in the same location will reduce the player’s life count and earn the player treasure points (consider it a life insurance payout). Before playing the game, the program will prompt the user to perform some upfront configurations to the player and the game components – these settings will define how the game is played.
 
 
+
+````
+PLAYER Configuration
+--------------------
+Enter a single character to represent the player: D
+Set the number of lives: 10
+Player configuration set-up is complete
+
+GAME Configuration
+------------------
+Set the path length (a multiple of 5 between 10-70): 25
+Set the limit for number of moves allowed: 17
+````
+
+To set the bombs you need to type n rows of 1 and 0 where 1 means there are (bomb or treasure) and 0 means empty.
+
+````
+BOMB Placement
+--------------
+Enter the bomb positions in sets of 5 where a value
+of 1=BOMB, and 0=NO BOMB. Space-delimit your input.
+(Example: 1 0 0 1 1) NOTE: there are 25 to set!
+   Positions [ 1- 5]: 1 0 1 0 0
+   Positions [ 6-10]: 0 0 0 0 1
+   Positions [11-15]: 1 1 0 0 0
+   Positions [16-20]: 1 0 0 0 1
+   Positions [21-25]: 1 1 1 0 0
+BOMB placement set
+
+TREASURE Placement
+------------------
+Enter the treasure placements in sets of 5 where a value
+of 1=TREASURE, and 0=NO TREASURE. Space-delimit your input.
+(Example: 1 0 0 1 1) NOTE: there are 25 to set!
+   Positions [ 1- 5]: 0 0 0 0 0
+   Positions [ 6-10]: 1 0 0 0 1
+   Positions [11-15]: 0 0 1 1 0
+   Positions [16-20]: 1 0 0 0 0
+   Positions [21-25]: 0 0 0 0 1
+TREASURE placement set
+````
+
+If there is a bomb and a treasure at same number both actions will be count.
+
+````
+====================================
+~ Get ready to play TREASURE HUNT! ~
+====================================
+
+  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+  |||||||||1|||||||||2|||||
+  1234567890123456789012345
++---------------------------------------------------+
+  Lives: 10  | Treasures:  0  |  Moves Remaining: 17
++---------------------------------------------------+
+Next Move [1-25]:
+````
+
+You need to select a move and will reveal one of the 4 options:
+
+Explosion:
+
+````
+Next Move [1-25]: 1
+
+===============> [!] !!! BOOOOOM !!! [!]
+
+  D
+  !▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+  |||||||||1|||||||||2|||||
+````
+
+Empty space:
+
+````
+Next Move [1-25]: 2
+
+===============> [.] ...Nothing found here... [.]
+
+   D
+  !.▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+  |||||||||1|||||||||2|||||
+````
+
+Treasure:
+
+````
+Next Move [1-25]: 25
+
+===============> [$] $$$ Found Treasure! $$$ [$]
+
+                          D
+  !.▒▒▒▒▒▒▒&▒▒▒▒▒▒▒▒▒▒▒▒▒▒$
+  |||||||||1|||||||||2|||||
+````
+
+Bomb + Treasure:
+
+````
+Next Move [1-25]: 10
+
+===============> [&] !!! BOOOOOM !!! [&]
+===============> [&] $$$ Life Insurance Payout!!! [&]
+
+           D
+  !.▒▒▒▒▒▒▒&▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+  |||||||||1|||||||||2|||||
+````
+
+You can not go 2 times at the same place:
+
+````
+Next Move [1-25]: 13
+
+===============> Dope! You've been here before!
+````
+
+You can get all your treasures and try finishing your movements without losing all your lives.
+
+````
+Next Move [1-25]: 19
+
+===============> [.] ...Nothing found here... [.]
+
+                    D
+  !.!..$▒▒.&▒▒$$.&▒▒.!!▒!▒$
+  |||||||||1|||||||||2|||||
+  1234567890123456789012345
++---------------------------------------------------+
+  Lives:  3  | Treasures:  6  |  Moves Remaining:  0
++---------------------------------------------------+
+
+##################
+#   Game over!   #
+##################
+
+You should play again and try to beat your score!
+````
 
 ### [Workshop #6](https://github.com/DeBaFig/1st-term/tree/DeBaFig-workshop6)
 
-![w6](https://user-images.githubusercontent.com/46844031/163506196-b36d5cb5-bb7b-479f-a0e7-ab06252becfa.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46844031/163506196-b36d5cb5-bb7b-479f-a0e7-ab06252becfa.gif" width="600"/>
+</p>
 
 This program evaluates the cheapest cat food product based on a simple analysis. Data will be entered for three similar products and then displayed back to the user in a tabular table format. The data will be analyzed and displayed with additional calculated information in the form of a formatted table revealing the analysis. The program concludes with the suggested cheapest product.
 
@@ -200,7 +350,9 @@ Happy shopping!
 
 ### [Final Project](https://github.com/DeBaFig/1st-term/tree/DeBaFig-finalProject)
 
-![finalProject](https://user-images.githubusercontent.com/46844031/163506202-1355aeb8-a8cd-451a-bd8e-33958e6380a8.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46844031/163506202-1355aeb8-a8cd-451a-bd8e-33958e6380a8.gif" width="600"/>
+</p>
 
 This program creates a basic ticketing system, a tracking system for customer-reported problems. When a customer has a problem they will phone or email for support. The person handling the support request will create a ticket for the request that contains the details of the problem and the customer's contact information so that the customer can be notified when there is a solution. 
 
@@ -273,6 +425,33 @@ Saving session modifications...
    1 tickets saved.
 ### LOGGED OUT ###
 ````
-Modifications made during the session only will be save when the user click on logout.
+
+Modifications made during the session only will be saved when the user clicks on logout.
 
 ## Final considerations
+
+## Technologies
+
+All workshops/projects were developed in C.
+
+- [C](https://devdocs.io/c/)
+
+All readmes were built using HTML and Markdown
+
+- [HTML](https://devdocs.io/html/)
+- [Markdown](https://devdocs.io/markdown/)
+
+These workshops were developed by the Seneca College professors, and the code by me. [IPC144](https://github.com/Seneca-144100/IPC-Workshops) is a course of [Computer Programming Program](https://www.senecacollege.ca/programs/fulltime/CPP.html). 
+
+### Author
+
+**Denize**
+
+It is not luck, it is hard work!
+
+<img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/46844031/163518939-915f6e15-200a-4e9c-9f54-9bee6beec89b.jpg" width="100px;" alt=""/>
+
+Where to find me:
+
+[![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Dbassi91)   [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dbfigueiredo/)   [![Gmail Badge](	https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:denize.f.bassi@gmail.com)   [![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/debafig)   
+[![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/d.bassi91/)   [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DeBaFig)   [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bassidenize/)   [![About.me Badge](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://about.me/denizefigueiredo/getstarted)   [![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/qr/VMVHOV7CIFHYP1)
