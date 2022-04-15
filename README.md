@@ -1,17 +1,17 @@
-## Workshop #2
-------------
+# Workshop #2
 
-![](https://raw.githubusercontent.com/DeBaFig/1st-term/main/img-readme/w2.gif)
+![w2](https://user-images.githubusercontent.com/46844031/163504366-e9dd85ad-9961-469e-8ba5-e3b6f74adc13.gif)
 
-This program calculate the number of toonies, loonies, quarters, dimes, nicklels and pennies required to dispense the amount due and display the remaining owed with each coin denomination.
-Start the program, 
+This program calculates the number of toonies, loonies, quarters, dimes, nickels, and pennies required to dispense the amount due and displays the remaining owed with each coin denomination.
 
 ```
 Change Maker Machine
 ====================
 Enter dollars and cents amount to convert to coins (0 to exit): $ (TYPE HERE THE AMOUNT)
 ```
+
 Click enter and see the result:
+
 ```
 Change Maker Machine
 ====================
