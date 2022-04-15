@@ -1,5 +1,4 @@
-Workshop #4
-------------
+# Workshop #4
 
 ![w4](https://user-images.githubusercontent.com/46844031/163493459-f35ea07a-0f5e-48ec-9168-98e69e699d02.gif)
 
@@ -13,17 +12,20 @@ How to use:
 
 Enter your monthly NET income: $ 1000 <- type the You income
 ```
+
 **There is a min and max (min: 1000 max 400000)**
 
 ```
-How many wish list items do you want to forecast?: 5 <- Itens in your wish list
+How many wish list items do you want to forecast?: 5 <- Items in your wish list
 
 Item-1 Details:
    Item cost: $1000 <- do I need to explain?
    How important is it to you? [1=must have, 2=important, 3=want]: 1
    Does this item have financing options? [y/n]: y
 ```
- After there'll be a summary and a menu and you'll be able to see how much money do you need.
+
+After there'll be a summary and a menu and you'll be able to see how much money you need.
+ 
  ```
  Item Priority Financed        Cost
 ---- -------- -------- -----------
