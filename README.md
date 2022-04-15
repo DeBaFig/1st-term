@@ -16,6 +16,7 @@
       * [Workshop #6](#workshop-6)
       * [Final Project](#final-project)
    * [Final Considerations](#final-considerations)
+   * [Author](#author)
       
 <!--te-->
 
