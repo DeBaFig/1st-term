@@ -1,5 +1,5 @@
 # Final Project
-------------
+
 
 ![finalProject](https://user-images.githubusercontent.com/46844031/163506202-1355aeb8-a8cd-451a-bd8e-33958e6380a8.gif)
 
