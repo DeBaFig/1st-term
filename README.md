@@ -5,8 +5,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/1st-term)
 
-
-<p>Codes of mt workshops and final project.</p>
+<p>Codes of my workshops and the final project.</p>
 
 <!--ts-->
    * [About](#about)
@@ -30,7 +29,7 @@
 ## Branches
 ------------
 
-This repository is divaded in branches, each branch has one workshop/project, and a pdf with the especifications of it. You can access the branch clicking at the title:
+This repository is divided into branches, each branch has one workshop/project and a pdf with its specifications. You can access the branch by clicking at the title:
 
 ### [Workshop #2](https://github.com/DeBaFig/1st-term/tree/DeBaFig-Workshop2)
 ------------
@@ -57,6 +56,7 @@ Balance to dispense: $95.00
 $2.00 Toonies  X 47 (remaining: $1.00)
 $1.00 Loonies  X 1 (remaining: $0.00)
 ```
+
 ### [Workshop #3](https://github.com/DeBaFig/1st-term/tree/DeBaFig-workshop3)
 
 ![w3](https://user-images.githubusercontent.com/46844031/163491541-3ced595a-db79-4fc8-a08b-9c49e4269925.gif)
@@ -131,7 +131,7 @@ Item-1 Details:
    Does this item have financing options? [y/n]: y
 ```
 
-After there'll be a summary and a menu and you'll be able to see how much money do you need.
+After there'll be a summary and a menu and you'll be able to see how much money you need.
  
  ```
  Item Priority Financed        Cost
@@ -178,7 +178,7 @@ NOTE: Financing options are available on some items.
 
 ![finalProject](https://user-images.githubusercontent.com/46844031/163506202-1355aeb8-a8cd-451a-bd8e-33958e6380a8.gif)
 
-This program create a basic ticketing system, a tracking system for customer reported problems. When a customer has a problem they will phone or email for support. The person handling the support request will create a ticket for the request that contains the details of the problem and the customer contact information so that the customer can be notified when there is a solution. 
+This program creates a basic ticketing system, a tracking system for customer-reported problems. When a customer has a problem they will phone or email for support. The person handling the support request will create a ticket for the request that contains the details of the problem and the customer's contact information so that the customer can be notified when there is a solution. 
 
 ````
 ##########################################################################
@@ -190,8 +190,8 @@ Starting Account Ticketing System....
 
 Using the text file in the branch ["accounts.txt"](https://github.com/DeBaFig/1st-term/blob/DeBaFig-finalProject/accounts.txt) you use the ADMIN login.
 
-Divided in Administrator an Customer menu you can create and change (limited by a CONST), in the code tickets an users.
-You can see the menu options bellow:
+Divided between the Administrator and Customer menu you can create and change tickets and users (limited by a CONST on code).
+You can see the menu options below:
 
 -> Administrator Menu
 
@@ -241,7 +241,7 @@ Customer Main Menu
 0) Logout
 ````
 
-This program have implementations to create persistent storage of the account and ticketing data. The system load account and ticket information from files, save account and ticket information to files and finally archive data which will no longer be actively used in the system.
+This program has implementations to create persistent storage of the account and ticketing data. The system load account and ticket information from files, save account and ticket information to files, and finally archive data that will no longer be actively used in the system.
 
 ````
 Saving session modifications...
