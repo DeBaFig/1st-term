@@ -22,17 +22,14 @@
 
 
 ## About
-------------
 
 <p>During the IPC144 course at Seneca College I was able to learn and apply principles of computer programming, with an emphasis on problem solving strategies using structured programming techniques. Using C programming language, which is widely used and forms the syntactical basis for object-oriented languages such as C++, C#, and Java, is used to introduce problem analysis, algorithm design, and program implementation.</p>
 
 ## Branches
-------------
 
 This repository is divided into branches, each branch has one workshop/project and a pdf with its specifications. You can access the branch by clicking at the title:
 
 ### [Workshop #2](https://github.com/DeBaFig/1st-term/tree/DeBaFig-Workshop2)
-------------
 
 ![w2](https://user-images.githubusercontent.com/46844031/163504366-e9dd85ad-9961-469e-8ba5-e3b6f74adc13.gif)
 
@@ -105,7 +102,6 @@ Average overall rating:  2.8
 ```
 
 ### [Workshop #4](https://github.com/DeBaFig/1st-term/tree/DeBaFig-workshop4)
-------------
 
 ![w4](https://user-images.githubusercontent.com/46844031/163493459-f35ea07a-0f5e-48ec-9168-98e69e699d02.gif)
 
@@ -162,19 +158,47 @@ NOTE: Financing options are available on some items.
  
  
 ### [Workshop #5](https://github.com/DeBaFig/1st-term/tree/DeBaFig-Workshop5)
-------------
 
 ![w5](https://user-images.githubusercontent.com/46844031/163506188-57baccc2-6610-4f39-8429-5ddeb1d8c2f2.gif)
 
 
+
 ### [Workshop #6](https://github.com/DeBaFig/1st-term/tree/DeBaFig-workshop6)
-------------
 
 ![w6](https://user-images.githubusercontent.com/46844031/163506196-b36d5cb5-bb7b-479f-a0e7-ab06252becfa.gif)
 
+This program evaluates the cheapest cat food product based on a simple analysis. Data will be entered for three similar products and then displayed back to the user in a tabular table format. The data will be analyzed and displayed with additional calculated information in the form of a formatted table revealing the analysis. The program concludes with the suggested cheapest product.
+
+First, the program will ask about the cat food pieces of information of 3  different options (it can be changed the CONST that save the number of products): 
+
+````
+Cat Food Product #1
+--------------------
+SKU           : 123
+PRICE         : $1000
+WEIGHT (LBS)  : 1500
+CALORIES/SERV.: 100
+````
+
+Then, it will provide a summary and suggest the less expencive.
+
+````
+SKU         $Price    Bag-lbs     Bag-kg     Bag-g Cal/Serv Servings  $/Serv   $/Cal
+------- ---------- ---------- ---------- --------- -------- -------- ------- -------
+0000123    1000.00     1500.0   680.3894    680389      100  10631.1    0.09 0.00094
+0001234    1500.00     3000.0  1360.7787   1360778      120  21262.2    0.07 0.00059
+0012345     100.00     1000.0   453.5929    453592      100   7087.4    0.01 0.00014 ***
+
+Final Analysis
+--------------
+Based on the comparison data, the PURRR-fect economical option is:
+SKU:0012345 Price: $100.00
+
+Happy shopping!
+````
+
 
 ### [Final Project](https://github.com/DeBaFig/1st-term/tree/DeBaFig-finalProject)
-------------
 
 ![finalProject](https://user-images.githubusercontent.com/46844031/163506202-1355aeb8-a8cd-451a-bd8e-33958e6380a8.gif)
 
@@ -252,4 +276,3 @@ Saving session modifications...
 Modifications made during the session only will be save when the user click on logout.
 
 ## Final considerations
-------------
