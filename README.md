@@ -3,7 +3,7 @@
 
 <h1 align="center">SENECA WINTER TERM 2021 - WORKSHOPS</h1>
 
-![VS Badge](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)   ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)   ![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/1st-term)
+![VS Badge](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)   ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)   ![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/1st-term)   ![APM](https://img.shields.io/apm/l/vim-mode)
 
 <p>Codes of my workshops and the final project.</p>
 
