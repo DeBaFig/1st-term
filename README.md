@@ -15,7 +15,7 @@
       * [Workshop #5](#workshop-5)
       * [Workshop #6](#workshop-6)
       * [Final Project](#final-project)
-   * [Final Considerations](#final-considerations)
+   * [Technologies](#technologies)
    * [Author](#author)
       
 <!--te-->
@@ -427,8 +427,6 @@ Saving session modifications...
 ````
 
 Modifications made during the session only will be saved when the user clicks on logout.
-
-## Final considerations
 
 ## Technologies
 
