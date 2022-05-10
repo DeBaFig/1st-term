@@ -1,3 +1,7 @@
+# Workshop #5
+
+![](https://user-images.githubusercontent.com/46844031/163506188-57baccc2-6610-4f39-8429-5ddeb1d8c2f2.gif)
+=======
 ![banner](https://user-images.githubusercontent.com/46844031/163574487-8884b2f1-9fcc-400f-a68d-bd2a73e24383.jpg)
 
 <h1 align="center">SENECA WINTER TERM 2021 - WORKSHOPS</h1>
@@ -171,8 +175,6 @@ NOTE: Financing options are available on some items.
 
 The game requires the player to enter move location commands to reveal what is hidden at a given position along the path. The object of the game is for the player to find as many treasures as possible before running out of moves or lives. Discovering a bomb will reduce the player’s life count. Discovering a treasure will earn the player treasure points. Discovering both, a treasure with a bomb in the same location will reduce the player’s life count and earn the player treasure points (consider it a life insurance payout). Before playing the game, the program will prompt the user to perform some upfront configurations to the player and the game components – these settings will define how the game is played.
 
-
-
 ````
 PLAYER Configuration
 --------------------
@@ -310,6 +312,7 @@ Next Move [1-25]: 19
 
 You should play again and try to beat your score!
 ````
+=======
 
 ### [Workshop #6](https://github.com/DeBaFig/1st-term/tree/DeBaFig-workshop6)
 
