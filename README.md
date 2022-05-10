@@ -8,7 +8,6 @@
 
 <!--ts-->
    * [About](#about)
-   * [Branches](#branches)
       * [Workshop #2](#workshop-2)
       * [Workshop #3](#workshop-3)
       * [Workshop #4](#workshop-4)
@@ -25,11 +24,7 @@
 
 <p>During the IPC144 course at Seneca College I was able to learn and apply principles of computer programming, with an emphasis on problem solving strategies using structured programming techniques. Using C programming language, which is widely used and forms the syntactical basis for object-oriented languages such as C++, C#, and Java, is used to introduce problem analysis, algorithm design, and program implementation.</p>
 
-## Branches
-
-This repository is divided into branches, each branch has one workshop/project and a pdf with its specifications. You can access the branch by clicking at the title:
-
-### [Workshop #2](https://github.com/DeBaFig/1st-term/tree/DeBaFig-Workshop2)
+### [Workshop #2]
 <p align="center">
   <img src="https://user-images.githubusercontent.com/46844031/163504366-e9dd85ad-9961-469e-8ba5-e3b6f74adc13.gif" width="600"/>
 </p>
@@ -56,7 +51,7 @@ $2.00 Toonies  X 47 (remaining: $1.00)
 $1.00 Loonies  X 1 (remaining: $0.00)
 ```
 
-### [Workshop #3](https://github.com/DeBaFig/1st-term/tree/DeBaFig-workshop3)
+### [Workshop #3]
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/46844031/163491541-3ced595a-db79-4fc8-a08b-9c49e4269925.gif" width="600"/>
@@ -105,7 +100,7 @@ Average evening rating:  3.3
 Average overall rating:  2.8
 ```
 
-### [Workshop #4](https://github.com/DeBaFig/1st-term/tree/DeBaFig-workshop4)
+### [Workshop #4]
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/46844031/163493459-f35ea07a-0f5e-48ec-9168-98e69e699d02.gif" width="600"/>
@@ -163,7 +158,7 @@ NOTE: Financing options are available on some items.
  ```
  
  
-### [Workshop #5](https://github.com/DeBaFig/1st-term/tree/DeBaFig-Workshop5)
+### [Workshop #5]
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/46844031/163506188-57baccc2-6610-4f39-8429-5ddeb1d8c2f2.gif" width="600"/>
@@ -308,9 +303,9 @@ Next Move [1-25]: 19
 
 You should play again and try to beat your score!
 ````
-=======
 
-### [Workshop #6](https://github.com/DeBaFig/1st-term/tree/DeBaFig-workshop6)
+
+### [Workshop #6]
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/46844031/163506196-b36d5cb5-bb7b-479f-a0e7-ab06252becfa.gif" width="600"/>
@@ -347,7 +342,7 @@ Happy shopping!
 ````
 
 
-### [Final Project](https://github.com/DeBaFig/1st-term/tree/DeBaFig-finalProject)
+### [Final Project]
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/46844031/163506202-1355aeb8-a8cd-451a-bd8e-33958e6380a8.gif" width="600"/>
