@@ -1,4 +1,3 @@
-
 ![banner](https://user-images.githubusercontent.com/46844031/163574487-8884b2f1-9fcc-400f-a68d-bd2a73e24383.jpg)
 
 <h1 align="center">SENECA WINTER TERM 2021 - WORKSHOPS</h1>
@@ -420,8 +419,6 @@ Saving session modifications...
    1 tickets saved.
 ### LOGGED OUT ###
 ````
-
-Modifications made during the session only will be saved when the user clicks on logout.
 
 ## Technologies
 
